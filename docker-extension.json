@@ -1,0 +1,15 @@
+{
+ "name": "IP Reputation Checker by sivolko",
+ "version": "1.0.0",
+ "description": "A docker extension build by shubhendu to check IP  reputation using streamlit.",
+ "ui":{
+    "dashboard-tab":{
+        "title": "IP Reputaiton Checker by sivolko",
+        "src": "/"
+    }
+ },
+ "backend": {
+    "image": "ip_reputation_checker:latest",
+    "port": 8501
+ }
+}
